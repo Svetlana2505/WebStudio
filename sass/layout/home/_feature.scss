@@ -3,10 +3,11 @@
 }
 
 .feature-list {
-  @media screen and(min-width:768px) and(max-width:1199px){
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+  display: flex;
+  // justify-content: center;
+  flex-wrap: wrap;
+
+  @media screen and(min-width:768px) and(max-width:1199px) {
     margin-top: -30px;
     margin-left: -30px;
   }
@@ -17,7 +18,7 @@
     margin-bottom: 30px;
   }
 
-  @media screen and(min-width:768px) {
+  @media screen and(min-width:768px) and(max-width:1199px){
     width: calc((100% - 60px) / 2);
     margin-top: 30px;
     margin-left: 30px;
@@ -25,8 +26,6 @@
 
   @media screen and(min-width:1200px) {
     width: calc((100% - 90px) / 4);
-    margin-top: 0;
-    margin-left: 0;
 
     &:not(:last-child) {
       margin-right: 30px;

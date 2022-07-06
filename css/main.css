@@ -1079,11 +1079,12 @@ img {
   background-color: var(--bg-secondcolor);
 }
 
+.feature-list {
+  display: flex;
+  flex-wrap: wrap;
+}
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .feature-list {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
     margin-top: -30px;
     margin-left: -30px;
   }
@@ -1094,7 +1095,7 @@ img {
     margin-bottom: 30px;
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .feature-list__item {
     width: calc((100% - 60px) / 2);
     margin-top: 30px;
@@ -1104,8 +1105,6 @@ img {
 @media screen and (min-width: 1200px) {
   .feature-list__item {
     width: calc((100% - 90px) / 4);
-    margin-top: 0;
-    margin-left: 0;
   }
   .feature-list__item:not(:last-child) {
     margin-right: 30px;
