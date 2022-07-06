@@ -1,0 +1,12 @@
+.section__title {
+  @include font(700, 28px, 33px);
+  color: var(--primary-text-color);
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 30px;
+
+  @media screen and(min-width:1200px) {
+    @include font(700, 36px, 42px);
+    margin-bottom: 50px;
+  }
+}

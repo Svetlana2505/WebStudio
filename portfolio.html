@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <title>Портфолио</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-container container">
+        <nav class="nav">
+          <a href="" class="logo"><span class="logo_accent">Web</span>Studio</a>
+          <button class="btn__svg" data-menu-open>
+            <svg width="40" height="40">
+              <use href="./images/icons.svg/symbol-defs.svg#icon-burger"></use>
+            </svg>
+          </button>
+          <ul class="menu list">
+            <li class="menu__item">
+              <a class="menu__link" href="./index.html">Студия</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link menu__link_activ" href="">Портфолио</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+
+        <ul class="contacts list">
+          <li class="contacts__item">
+            <a class="contacts__link" href="mailto:info@devstudio.com">
+              <svg width="16" height="12" class="contacts__icon">
+                <use
+                  href="./images/icons.svg/symbol-defs.svg#icon-envelope"
+                ></use>
+              </svg>
+              info@devstudio.com</a
+            >
+          </li>
+          <li class="contacts__item">
+            <a class="contacts__link" href="tel:+380961111111">
+              <svg width="10" height="16" class="contacts__icon">
+                <use
+                  href="./images/icons.svg/symbol-defs.svg#icon-smartphone"
+                ></use>
+              </svg>
+              +38 096 111 11 11</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="mobile is-open" data-menu>
+        <button class="mobile__btn" data-menu-close>
+          <svg width="40" height="40">
+            <use href="./images/icons.svg/symbol-defs.svg#icon-close"></use>
+          </svg>
+        </button>
+        <ul class="mobile-menu list">
+          <li class="mobile-menu__item">
+            <a href="" class="mobile-menu__link mobile-menu__link_activ"
+              >Студия</a
+            >
+          </li>
+          <li class="mobile-menu__item">
+            <a href="" class="mobile-menu__link">Портфолио</a>
+          </li>
+          <li class="mobile-menu__item">
+            <a href="" class="mobile-menu__link">Контакты</a>
+          </li>
+        </ul>
+        <ul class="mobile-contacts list">
+          <li class="mobile-contacts__item">
+            <a href="tel:+380961111111" class="mobile-contacts__link_accent"
+              >+38 096 111 11 11</a
+            >
+          </li>
+          <li class="mobile-contacts__item">
+            <a href="mailto:info@devstudio.com" class="mobile-contacts__link"
+              >info@devstudio.com</a
+            >
+          </li>
+        </ul>
+        <ul class="mobile-social list">
+          <li class="mobile-social__item">
+            <a href="" class="mobile-social__link">Instagram </a>
+          </li>
+          <li class="mobile-social__item">
+            <a href="" class="mobile-social__link">Twitter</a>
+          </li>
+          <li class="mobile-social__item">
+            <a href="" class="mobile-social__link">Facebook</a>
+          </li>
+          <li class="mobile-social__item">
+            <a href="" class="mobile-social__link">LinkedIn </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <section class="section filter">
+        <div class="container">
+          <h1 class="visually-hidden">Портфолио</h1>
+            <ul class="filter-list list">
+              <li class="filter-list__item">
+                <button type="button" class="filter-list__btn">Все</button>
+              </li>
+              <li class="filter-list__item">
+                <button type="button" class="filter-list__btn">
+                  Веб-сайты
+                </button>
+              </li>
+              <li class="filter-list__item">
+                <button type="button" class="filter-list__btn">
+                  Приложения
+                </button>
+              </li>
+              <li class="filter-list__item">
+                <button type="button" class="filter-list__btn">Дизайн</button>
+              </li>
+              <li class="filter-list__item">
+                <button type="button" class="filter-list__btn">
+                  Маркетинг
+                </button>
+              </li>
+            </ul>
+            <ul class="project-list list">
+              <li class="project-list__item">
+                <a href="" class="project-link">
+                  <div class="project-link__img">
+                    <picture>
+                      <source
+                        srcset="
+                          ./images/portfolio/desktop-project1.webp    1x,
+                          ./images/portfolio/desktop-project1@2x.webp 2x
+                        "
+                        type="image/webp"
+                        media="(min-width:1200px)"
+                      />
+                      <source
+                        srcset="
+                          ./images/portfolio/desktop-project1.jpg    1x,
+                          ./images/portfolio/desktop-project1@2x.jpg 2x
+                        "
+                        media="(min-width:1200px)"
+                      />
+                      <source
+                        srcset="
+                          ./images/portfolio/tablet-project1.webp    1x,
+                          ./images/portfolio/tablet-project1@2x.webp 2x
+                        "
+                        type="image/webp"
+                        media="(min-width:768px)"
+                      />
+                      <source
+                        srcset="
+                          ./images/portfolio/tablet-project1.jpg    1x,
+                          ./images/portfolio/tablet-project1@2x.jpg 2x
+                        "
+                        media="(min-width:768px)"
+                      />
+                      <source
+                        srcset="
+                          ./images/portfolio/mobile-project1.webp    1x,
+                          ./images/portfolio/mobile-project1@2x.webp 2x
+                        "
+                        type="image/webp"
+                        media="(max-width:768px)"
+                      />
+                      <source
+                        srcset="
+                          ./images/portfolio/mobile-project1.jpg    1x,
+                          ./images/portfolio/mobile-project1@2x.jpg 2x
+                        "
+                        media="(max-width:768px)"
+                      />
+                      <img
+                        src="./images/portfolio/desktop-project1.jpg"
+                        alt="открытый ноутбук"
+                      />
+                    </picture>
+
+                    <p class="project-link__text">
+                      Ресурс предлагает комплексные предложения с разным уровнем
+                      функционала и сервисов. Все это позволит посетителю
+                      получить исчерпывающие сведения о компании или частном
+                      лице.
+                    </p>
+                  </div>
+                  <div class="project-subitem">
+                    <h2 class="project-subitem__title">Технокряк</h2>
+                    <p class="project-subitem__text">Веб-сайт</p>
+                  </div>
+                </a>
+              </li>
+              <li class="project-list__item">
+                <a href="" class="project-link">
+                  <div class="project-link__img">
+                    <picture>
+                      <source
+                        srcset="
+                          ./images/portfolio/desktop-project2.webp    1x,
+                          ./images/portfolio/desktop-project2@2x.webp 2x
+                        "
+                        type="image/webp"
+                        media="(min-width:1200px)"
+                      />
+                      <source
+                        srcset="
+                          ./images/portfolio/desktop-project2.jpg    1x,
+                          ./images/portfolio/desktop-project2@2x.jpg 2x
+                        "
+                        media="(min-width:1200px)"
+                      />
+                      <source
+                        srcset="
+                          ./images/portfolio/tablet-project2.webp    1x,
+                          ./images/portfolio/tablet-project2@2x.webp 2x
+                        "
+                        type="image/webp"
+                        media="(min-width:768px)"
+                      />
+                      <source
+                        srcset="
+                          ./images/portfolio/tablet-project2.jpg    1x,
+                          ./images/portfolio/tablet-project2@2x.jpg 2x
+                        "
+                        media="(min-width:768px)"
+                      />
+                      <source
+                        srcset="
+                          ./images/portfolio/mobile-project2.webp    1x,
+                          ./images/portfolio/mobile-project2@2x.webp 2x
+                        "
+                        type="image/webp"
+                        media="(max-width:768px)"
+                      />
+                      <source
+                        srcset="
+                          ./images/portfolio/mobile-project2.jpg    1x,
+                          ./images/portfolio/mobile-project2@2x.jpg 2x
+                        "
+                        media="(max-width:768px)"
+                      />
+                      <img
+                        src="./images/portfolio/desktop-project2.jpg"
+                        alt="два спортсмена играют в баскетбол"
+                      />
+                    </picture>
+                    <p class="project-link__text">
+                      Ресурс предлагает комплексные предложения с разным уровнем
+                      функционала и сервисов. Все это позволит посетителю
+                      получить исчерпывающие сведения о компании или частном
+                      лице.
+                    </p>
+                  </div>
+                  <div class="project-subitem">
+                    <h2 class="project-subitem__title">
+                      Постер New Orlean vs Golden Star
+                    </h2>
+                    <p class="project-subitem__text">Дизайн</p>
+                  </div>
+                </a>
+              </li>
+              <li class="project-list__item">
+                <a href="" class="project-link">
+                  <div class="project-link__img">
+                    <picture>
+                      <source
+                        srcset="
+                          ./images/portfolio/desktop-project3.webp    1x,
+                          ./images/portfolio/desktop-project3@2x.webp 2x
+                        "
+                        type="image/webp"
+                        media="(min-width:1200px)"
+                      />
+                      <source
+                        srcset="
+                          ./images/portfolio/desktop-project3.jpg    1x,
+                          ./images/portfolio/desktop-project3@2x.jpg 2x
+                        "
+                        media="(min-width:1200px)"
+                      />
+                      <source
+                        srcset="
+                          ./images/portfolio/tablet-project3.webp    1x,
+                          ./images/portfolio/tablet-project3@2x.webp 2x
+                        "
+                        type="image/webp"
+                        media="(min-width:768px)"
+                      />
+                      <source
+                        srcset="
+                          ./images/portfolio/tablet-project3.jpg    1x,
+                          ./images/portfolio/tablet-project3@2x.jpg 2x
+                        "
+                        media="(min-width:768px)"
+                      />
+                      <source
+                        srcset="
+                          ./images/portfolio/mobile-project3.webp    1x,
+                          ./images/portfolio/mobile-project3@2x.webp 2x
+                        "
+                        type="image/webp"
+                        media="(max-width:768px)"
+                      />
+                      <source
+                        srcset="
+                          ./images/portfolio/mobile-project3.jpg    1x,
+                          ./images/portfolio/mobile-project3@2x.jpg 2x
+                        "
+                        media="(max-width:768px)"
+                      />
+                      <img
+                        src="./images/portfolio/desktop-project3.jpg"
+                        alt="логотип рыбного ресторана"
+                      />
+                    </picture>
+                    <p class="project-link__text">
+                      Ресурс предлагает комплексные предложения с разным уровнем
+                      функционала и сервисов. Все это позволит посетителю
+                      получить исчерпывающие сведения о компании или частном
+                      лице.
+                    </p>
+                  </div>
+                  <div class="project-subitem">
+                    <h2 class="project-subitem__title">Ресторан Seafood</h2>
+                    <p class="project-subitem__text">Приложение</p>
+                  </div>
+                </a>
+              </li>
+              <li class="project-list__item">
+                <a href="" class="project-link">
+                  <div class="project-link__img">
+                    <picture>
+                      <source
+                        srcset="
+                          ./images/portfolio/desktop-project4.webp    1x,
+                          ./images/portfolio/desktop-project4@2x.webp 2x
+                        "
+                        type="image/webp"
+                        media="(min-width:1200px)"
+                      />
+                      <source
+                        srcset="
+                          ./images/portfolio/desktop-project4.jpg    1x,
+                          ./images/portfolio/desktop-project4@2x.jpg 2x
+                        "
+                        media="(min-width:1200px)"
+                      />
+                      <source
+                        srcset="
+                          ./images/portfolio/tablet-project4.webp    1x,
+                          ./images/portfolio/tablet-project4@2x.webp 2x
+                        "
+                        type="image/webp"
+                        media="(min-width:768px)"
+                      />
+                      <source
+                        srcset="
+                          ./images/portfolio/tablet-project4.jpg    1x,
+                          ./images/portfolio/tablet-project4@2x.jpg 2x
+                        "
+                        media="(min-width:768px)"
+                      />
+                      <source
+                        srcset="
+                          ./images/portfolio/mobile-project4.webp    1x,
+                          ./images/portfolio/mobile-project4@2x.webp 2x
+                        "
+                        type="image/webp"
+                        media="(max-width:768px)"
+                      />
+                      <source
+                        srcset="
+                          ./images/portfolio/mobile-project4.jpg    1x,
+                          ./images/portfolio/mobile-project4@2x.jpg 2x
+                        "
+                        media="(max-width:768px)"
+                      />
+                      <img
+                        src="./images/portfolio/desktop-project4.jpg"
+                        alt="наушники"
+                      />
+                    </picture>
+                    <p class="project-link__text">
+                      Ресурс предлагает комплексные предложения с разным уровнем
+                      функционала и сервисов. Все это позволит посетителю
+                      получить исчерпывающие сведения о компании или частном
+                      лице.
+                    </p>
+                  </div>
+                  <div class="project-subitem">
+                    <h2 class="project-subitem__title">Проект Prime</h2>
+                    <p class="project-subitem__text">Маркетинг</p>
+                  </div>
+                </a>
+              </li>
+              <li class="project-list__item">
+                <a href="" class="project-link">
+                  <div class="project-link__img">
+                    <picture>
+                      <source
+                        srcset="
+                          ./images/portfolio/desktop-project5.webp    1x,
+                          ./images/portfolio/desktop-project5@2x.webp 2x
+                        "
+                        type="image/webp"
+                        media="(min-width:1200px)"
+                      />
+                      <source
+                        srcset="
+                          ./images/portfolio/desktop-project5.jpg    1x,
+                          ./images/portfolio/desktop-project5@2x.jpg 2x
+                        "
+                        media="(min-width:1200px)"
+                      />
+                      <source
+                        srcset="
+                          ./images/portfolio/tablet-project5.webp    1x,
+                          ./images/portfolio/tablet-project5@2x.webp 2x
+                        "
+                        type="image/webp"
+                        media="(min-width:768px)"
+                      />
+                      <source
+                        srcset="
+                          ./images/portfolio/tablet-project5.jpg    1x,
+                          ./images/portfolio/tablet-project5@2x.jpg 2x
+                        "
+                        media="(min-width:768px)"
+                      />
+                      <source
+                        srcset="
+                          ./images/portfolio/mobile-project5.webp    1x,
+                          ./images/portfolio/mobile-project5@2x.webp 2x
+                        "
+                        type="image/webp"
+                        media="(max-width:768px)"
+                      />
+                      <source
+                        srcset="
+                          ./images/portfolio/mobile-project5.jpg    1x,
+                          ./images/portfolio/mobile-project5@2x.jpg 2x
+                        "
+                        media="(max-width:768px)"
+                      />
+                      <img
+                        src="./images/portfolio/desktop-project5.jpg"
+                        alt="две коробки"
+                      />
+                    </picture>
+                    <p class="project-link__text">
+                      Ресурс предлагает комплексные предложения с разным уровнем
+                      функционала и сервисов. Все это позволит посетителю
+                      получить исчерпывающие сведения о компании или частном
+                      лице.
+                    </p>
+                  </div>
+                  <div class="project-subitem">
+                    <h2 class="project-subitem__title">Проект Boxes</h2>
+                    <p class="project-subitem__text">Приложение</p>
+                  </div>
+                </a>
+              </li>
+              <li class="project-list__item">
+                <a href="" class="project-link">
+                  <div class="project-link__img">
+                    <picture>
+                      <source
+                        srcset="
+                          ./images/portfolio/desktop-project6.webp    1x,
+                          ./images/portfolio/desktop-project6@2x.webp 2x
+                        "
+                        type="image/webp"
+                        media="(min-width:1200px)"
+                      />
+                      <source
+                        srcset="
+                          ./images/portfolio/desktop-project6.jpg    1x,
+                          ./images/portfolio/desktop-project6@2x.jpg 2x
+                        "
+                        media="(min-width:1200px)"
+                      />
+                      <source
+                        srcset="
+                          ./images/portfolio/tablet-project6.webp    1x,
+                          ./images/portfolio/tablet-project6@2x.webp 2x
+                        "
+                        type="image/webp"
+                        media="(min-width:768px)"
+                      />
+                      <source
+                        srcset="
+                          ./images/portfolio/tablet-project6.jpg    1x,
+                          ./images/portfolio/tablet-project6@2x.jpg 2x
+                        "
+                        media="(min-width:768px)"
+                      />
+                      <source
+                        srcset="
+                          ./images/portfolio/mobile-project6.webp    1x,
+                          ./images/portfolio/mobile-project6@2x.webp 2x
+                        "
+                        type="image/webp"
+                        media="(max-width:768px)"
+                      />
+                      <source
+                        srcset="
+                          ./images/portfolio/mobile-project6.jpg    1x,
+                          ./images/portfolio/mobile-project6@2x.jpg 2x
+                        "
+                        media="(max-width:768px)"
+                      />
+                      <img
+                        src="./images/portfolio/desktop-project6.jpg"
+                        alt="монитор"
+                      />
+                    </picture>
+                    <p class="project-link__text">
+                      Ресурс предлагает комплексные предложения с разным уровнем
+                      функционала и сервисов. Все это позволит посетителю
+                      получить исчерпывающие сведения о компании или частном
+                      лице.
+                    </p>
+                  </div>
+                  <div class="project-subitem">
+                    <h2 class="project-subitem__title">
+                      Inspiration has no Borders
+                    </h2>
+                    <p class="project-subitem__text">Веб-сайт</p>
+                  </div>
+                </a>
+              </li>
+              <li class="project-list__item">
+                <a href="" class="project-link">
+                  <div class="project-link__img">
+                    <picture>
+                      <source
+                        srcset="
+                          ./images/portfolio/desktop-project7.webp    1x,
+                          ./images/portfolio/desktop-project7@2x.webp 2x
+                        "
+                        type="image/webp"
+                        media="(min-width:1200px)"
+                      />
+                      <source
+                        srcset="
+                          ./images/portfolio/desktop-project7.jpg    1x,
+                          ./images/portfolio/desktop-project7@2x.jpg 2x
+                        "
+                        media="(min-width:1200px)"
+                      />
+                      <source
+                        srcset="
+                          ./images/portfolio/tablet-project7.webp    1x,
+                          ./images/portfolio/tablet-project7@2x.webp 2x
+                        "
+                        type="image/webp"
+                        media="(min-width:768px)"
+                      />
+                      <source
+                        srcset="
+                          ./images/portfolio/tablet-project7.jpg    1x,
+                          ./images/portfolio/tablet-project7@2x.jpg 2x
+                        "
+                        media="(min-width:768px)"
+                      />
+                      <source
+                        srcset="
+                          ./images/portfolio/mobile-project7.webp    1x,
+                          ./images/portfolio/mobile-project7@2x.webp 2x
+                        "
+                        type="image/webp"
+                        media="(max-width:768px)"
+                      />
+                      <source
+                        srcset="
+                          ./images/portfolio/mobile-project7.jpg    1x,
+                          ./images/portfolio/mobile-project7@2x.jpg 2x
+                        "
+                        media="(max-width:768px)"
+                      />
+                      <img
+                        src="./images/portfolio/desktop-project7.jpg"
+                        alt="открытая страница журнала"
+                      />
+                    </picture>
+                    <p class="project-link__text">
+                      Ресурс предлагает комплексные предложения с разным уровнем
+                      функционала и сервисов. Все это позволит посетителю
+                      получить исчерпывающие сведения о компании или частном
+                      лице.
+                    </p>
+                  </div>
+                  <div class="project-subitem">
+                    <h2 class="project-subitem__title">
+                      Издание Limited Edition
+                    </h2>
+                    <p class="project-subitem__text">Дизайн</p>
+                  </div>
+                </a>
+              </li>
+              <li class="project-list__item">
+                <a href="" class="project-link">
+                  <div class="project-link__img">
+                    <picture>
+                      <source
+                        srcset="
+                          ./images/portfolio/desktop-project8.webp    1x,
+                          ./images/portfolio/desktop-project8@2x.webp 2x
+                        "
+                        type="image/webp"
+                        media="(min-width:1200px)"
+                      />
+                      <source
+                        srcset="
+                          ./images/portfolio/desktop-project8.jpg    1x,
+                          ./images/portfolio/desktop-project8@2x.jpg 2x
+                        "
+                        media="(min-width:1200px)"
+                      />
+                      <source
+                        srcset="
+                          ./images/portfolio/tablet-project8.webp    1x,
+                          ./images/portfolio/tablet-project8@2x.webp 2x
+                        "
+                        type="image/webp"
+                        media="(min-width:768px)"
+                      />
+                      <source
+                        srcset="
+                          ./images/portfolio/tablet-project8.jpg    1x,
+                          ./images/portfolio/tablet-project8@2x.jpg 2x
+                        "
+                        media="(min-width:768px)"
+                      />
+                      <source
+                        srcset="
+                          ./images/portfolio/mobile-project8.webp    1x,
+                          ./images/portfolio/mobile-project8@2x.webp 2x
+                        "
+                        type="image/webp"
+                        media="(max-width:768px)"
+                      />
+                      <source
+                        srcset="
+                          ./images/portfolio/mobile-project8.jpg    1x,
+                          ./images/portfolio/mobile-project8@2x.jpg 2x
+                        "
+                        media="(max-width:768px)"
+                      />
+                      <img
+                        src="./images/portfolio/desktop-project8.jpg"
+                        alt="медальон на шнурочке"
+                      />
+                    </picture>
+                    <p class="project-link__text">
+                      Ресурс предлагает комплексные предложения с разным уровнем
+                      функционала и сервисов. Все это позволит посетителю
+                      получить исчерпывающие сведения о компании или частном
+                      лице.
+                    </p>
+                  </div>
+                  <div class="project-subitem">
+                    <h2 class="project-subitem__title">Проект LAB</h2>
+                    <p class="project-subitem__text">Маркетинг</p>
+                  </div>
+                </a>
+              </li>
+              <li class="project-list__item">
+                <a href="" class="project-link">
+                  <div class="project-link__img">
+                    <picture>
+                      <source
+                        srcset="
+                          ./images/portfolio/desktop-project9.webp    1x,
+                          ./images/portfolio/desktop-project9@2x.webp 2x
+                        "
+                        type="image/webp"
+                        media="(min-width:1200px)"
+                      />
+                      <source
+                        srcset="
+                          ./images/portfolio/desktop-project9.jpg    1x,
+                          ./images/portfolio/desktop-project9@2x.jpg 2x
+                        "
+                        media="(min-width:1200px)"
+                      />
+                      <source
+                        srcset="
+                          ./images/portfolio/tablet-project9.webp    1x,
+                          ./images/portfolio/tablet-project9@2x.webp 2x
+                        "
+                        type="image/webp"
+                        media="(min-width:768px)"
+                      />
+                      <source
+                        srcset="
+                          ./images/portfolio/tablet-project9.jpg    1x,
+                          ./images/portfolio/tablet-project9@2x.jpg 2x
+                        "
+                        media="(min-width:768px)"
+                      />
+                      <source
+                        srcset="
+                          ./images/portfolio/mobile-project9.webp    1x,
+                          ./images/portfolio/mobile-project9@2x.webp 2x
+                        "
+                        type="image/webp"
+                        media="(max-width:768px)"
+                      />
+                      <source
+                        srcset="
+                          ./images/portfolio/mobile-project9.jpg    1x,
+                          ./images/portfolio/mobile-project9@2x.jpg 2x
+                        "
+                        media="(max-width:768px)"
+                      />
+                      <img
+                        src="./images/portfolio/desktop-project9.jpg"
+                        alt="работа на ноутбуке"
+                      />
+                    </picture>
+                    <p class="project-link__text">
+                      Ресурс предлагает комплексные предложения с разным уровнем
+                      функционала и сервисов. Все это позволит посетителю
+                      получить исчерпывающие сведения о компании или частном
+                      лице.
+                    </p>
+                  </div>
+                  <div class="project-subitem">
+                    <h2 class="project-subitem__title">Growing Business</h2>
+                    <p class="project-subitem__text">Приложение</p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+        </div>
+      </section>
+    </main>
+     <footer class="footer">
+      <div class="container">
+        <div class="footer-box">
+          <div class="footer-container">
+            <a href="" class="logo  logo__color"
+              ><span class="logo_accent">Web</span>Studio</a
+            >
+            <address class="address">
+              <ul class="footer-list list">
+                <li class="footer-list__item">
+                  <a
+                    class="footer-list__address"
+                    href="https://goo.gl/maps/hT7M4xS8k6u17TfG9"
+                    >г. Киев, пр-т Леси Украинки, 26</a
+                  >
+                </li>
+                <li class="footer-list__item">
+                  <a class="footer-list__link" href="mailto:info@example.com"
+                    >info@example.com</a
+                  >
+                </li>
+                <li class="footer-list__item">
+                  <a class="footer-list__link" href="tel:+380991111111"
+                    >+38 099 111 11 11</a
+                  >
+                </li>
+              </ul>
+            </address>
+          </div>
+          <div class="footer-boxsocial">
+            <h2 class="footer-boxsocial__title">присоединяйтесь</h2>
+            <ul class="footer-social list">
+              <li class="footer-social__item">
+                <a href="" class="footer-social__link">
+                  <svg width="20" height="20">
+                    <use
+                      href="./images/icons.svg/symbol-defs.svg#icon-instagram"
+                    ></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer-social__item">
+                <a href="" class="footer-social__link">
+                  <svg width="20" height="20">
+                    <use
+                      href="./images/icons.svg/symbol-defs.svg#icon-twitter"
+                    ></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer-social__item">
+                <a href="" class="footer-social__link">
+                  <svg width="20" height="20">
+                    <use
+                      href="./images/icons.svg/symbol-defs.svg#icon-facebook"
+                    ></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer-social__item">
+                <a href="" class="footer-social__link">
+                  <svg width="20" height="20">
+                    <use
+                      href="./images/icons.svg/symbol-defs.svg#icon-linkedin"
+                    ></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+           <div class="footer-form">
+            <p class="footer-form__title">Подпишитесь на рассылку</p>
+           <form class="forma">
+              <input
+                type="email"
+                name="email"
+                placeholder="E-mail"
+                required
+                class="form__input"
+              />
+              <button type="submit" class="btn">
+                Подписаться
+                <svg width="24" height="24" class="btn-svg">
+                  <use
+                    href="./images/icons.svg/symbol-defs.svg#icon-send"
+                  ></use>
+                </svg>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

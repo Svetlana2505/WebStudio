@@ -1,0 +1,32 @@
+.working {
+  padding-top: 0;
+
+  @media screen and(max-width:1199px){
+    display: none;
+  }
+}
+
+.working-list {
+  display: flex;
+}
+
+.working-list__item {
+  position: relative;
+  width: calc((100% - 60px) / 3);
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+.working-list__text {
+  position: absolute;
+  @include position();
+  bottom: 0;
+  width: 100%;
+  height: 70px;
+  @include font(700, 14px, 16px);
+  text-transform: uppercase;
+  color: var(--color-white);
+  background: rgba(47, 48, 58, 0.8);
+}
