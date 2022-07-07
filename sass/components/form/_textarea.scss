@@ -26,4 +26,9 @@
   letter-spacing: 0.01em;
   color: var(--title-text-color);
   margin-bottom: 4px;
+  transition: color 250ms var(--timing-function);
+
+  .form-fild:focus-within & {
+    color: var(--accent-color);
+  }
 }

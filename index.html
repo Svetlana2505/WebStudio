@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/main.min.css" />
-    <title>goit-markup-hw-07</title>
+    <title>goit-markup-hw-08</title>
   </head>
   <body>
     <header class="header">
       <div class="header-container container">
         <nav class="nav">
-          <a href="" class="logo"><span class="logo_accent">Web</span>Studio</a>
+          <a href="" class="logo header__logo"><span class="logo_accent">Web</span>Studio</a>
           <button class="btn__svg" data-menu-open>
             <svg width="40" height="40">
               <use href="./images/icons.svg/symbol-defs.svg#icon-burger"></use>
@@ -54,50 +54,52 @@
         </ul>
       </div>
       <div class="mobile is-open" data-menu>
-        <button class="mobile__btn" data-menu-close>
-          <svg width="40" height="40">
-            <use href="./images/icons.svg/symbol-defs.svg#icon-close"></use>
-          </svg>
-        </button>
-        <ul class="mobile-menu list">
-          <li class="mobile-menu__item">
-            <a href="" class="mobile-menu__link mobile-menu__link_activ"
-              >Студия</a
-            >
-          </li>
-          <li class="mobile-menu__item">
-            <a href="" class="mobile-menu__link">Портфолио</a>
-          </li>
-          <li class="mobile-menu__item">
-            <a href="" class="mobile-menu__link">Контакты</a>
-          </li>
-        </ul>
-        <ul class="mobile-contacts list">
-          <li class="mobile-contacts__item">
-            <a href="tel:+380961111111" class="mobile-contacts__link_accent"
-              >+38 096 111 11 11</a
-            >
-          </li>
-          <li class="mobile-contacts__item">
-            <a href="mailto:info@devstudio.com" class="mobile-contacts__link"
-              >info@devstudio.com</a
-            >
-          </li>
-        </ul>
-        <ul class="mobile-social list">
-          <li class="mobile-social__item">
-            <a href="" class="mobile-social__link">Instagram </a>
-          </li>
-          <li class="mobile-social__item">
-            <a href="" class="mobile-social__link">Twitter</a>
-          </li>
-          <li class="mobile-social__item">
-            <a href="" class="mobile-social__link">Facebook</a>
-          </li>
-          <li class="mobile-social__item">
-            <a href="" class="mobile-social__link">LinkedIn </a>
-          </li>
-        </ul>
+        <div class="mobile__container">
+          <button class="mobile__btn" data-menu-close>
+            <svg width="40" height="40">
+              <use href="./images/icons.svg/symbol-defs.svg#icon-close"></use>
+            </svg>
+          </button>
+          <ul class="mobile-menu list">
+            <li class="mobile-menu__item">
+              <a href="" class="mobile-menu__link mobile-menu__link_activ"
+                >Студия</a
+              >
+            </li>
+            <li class="mobile-menu__item">
+              <a href="./portfolio.html" class="mobile-menu__link">Портфолио</a>
+            </li>
+            <li class="mobile-menu__item">
+              <a href="" class="mobile-menu__link">Контакты</a>
+            </li>
+          </ul>
+          <ul class="mobile-contacts list">
+            <li class="mobile-contacts__item">
+              <a href="tel:+380961111111" class="mobile-contacts__link_accent"
+                >+38 096 111 11 11</a
+              >
+            </li>
+            <li class="mobile-contacts__item">
+              <a href="mailto:info@devstudio.com" class="mobile-contacts__link"
+                >info@devstudio.com</a
+              >
+            </li>
+          </ul>
+          <ul class="mobile-social list">
+            <li class="mobile-social__item">
+              <a href="" class="mobile-social__link">Instagram </a>
+            </li>
+            <li class="mobile-social__item">
+              <a href="" class="mobile-social__link">Twitter</a>
+            </li>
+            <li class="mobile-social__item">
+              <a href="" class="mobile-social__link">Facebook</a>
+            </li>
+            <li class="mobile-social__item">
+              <a href="" class="mobile-social__link">LinkedIn </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
     <main>
@@ -105,7 +107,7 @@
       <section class="hero">
         <div class="hero-container container">
           <h1 class="hero-container__title">
-            Эффективные решения для вашего бизнеса
+            Эффективные решения <br> для вашего бизнеса
           </h1>
           <button type="button" class="hero-btn" data-modal-open>
             Заказать услугу
@@ -866,7 +868,6 @@
             <span class="form-fild__textarea-name">Комментарий</span>
             <textarea
               name="textarea"
-              id=""
               class="form-fild__modal-textarea"
               placeholder="Введите текст"
             ></textarea>
@@ -878,7 +879,7 @@
             class="checkbox-input visually-hidden"
           />
           <label for="checkbox-policy" class="checbox-label">
-            Соглашаюсь с рассылкой и принимаю &nbsp;
+            Соглашаюсь с рассылкой и принимаю&nbsp;
             <a href="" class="checbox-label__link">Условия договора</a>
           </label>
 

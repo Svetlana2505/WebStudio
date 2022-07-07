@@ -8,7 +8,7 @@
 }
 
 .project-list__item {
-  @media screen and(min-width:480px) and(max-width:767px){
+  @media screen and(min-width:480px) and(max-width:767px) {
     &:not(:last-child) {
       margin-bottom: 30px;
     }
@@ -27,6 +27,9 @@
 }
 
 .project-link {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
   transition: box-shadow 250ms var(--timing-function);
 
   &:hover,
@@ -62,6 +65,7 @@
 }
 
 .project-subitem {
+  flex-grow: 1;
   padding: 20px 24px;
   border-right: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;

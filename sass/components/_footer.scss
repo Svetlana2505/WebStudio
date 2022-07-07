@@ -51,16 +51,10 @@
 
 .footer-container,
 .footer-boxsocial {
-  @media screen and(min-width:480px) and(max-width:1199px) {
+  @media screen and(max-width:1199px) {
     margin-bottom: 60px;
   }
 }
-
-// .footer-boxsocial {
-//   @media screen and(min-width:1200px) {
-//     margin-right: 93px;
-//   }
-// }
 
 .footer-list__link {
   @include font();
