@@ -18,14 +18,10 @@ Use a better box model (opinionated).
 3. Use a more readable tab size (opinionated).
 */
 html {
-  line-height: 1.15;
-  /* 1 */
-  -webkit-text-size-adjust: 100%;
-  /* 2 */
-  -moz-tab-size: 4;
-  /* 3 */
-  tab-size: 4;
-  /* 3 */
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+  -moz-tab-size: 4; /* 3 */
+  tab-size: 4; /* 3 */
 }
 
 /*
@@ -37,10 +33,8 @@ Sections
 2. Improve consistency of default fonts in all browsers. (https://github.com/sindresorhus/modern-normalize/issues/3)
 */
 body {
-  margin: 0;
-  /* 1 */
-  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
-  /* 2 */
+  margin: 0; /* 1 */
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji"; /* 2 */
 }
 
 /*
@@ -52,10 +46,8 @@ Grouping content
 2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)
 */
 hr {
-  height: 0;
-  /* 1 */
-  color: inherit;
-  /* 2 */
+  height: 0; /* 1 */
+  color: inherit; /* 2 */
 }
 
 /*
@@ -85,10 +77,8 @@ code,
 kbd,
 samp,
 pre {
-  font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
-  /* 1 */
-  font-size: 1em;
-  /* 2 */
+  font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace; /* 1 */
+  font-size: 1em; /* 2 */
 }
 
 /**
@@ -126,10 +116,8 @@ Tabular data
 2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)
 */
 table {
-  text-indent: 0;
-  /* 1 */
-  border-color: inherit;
-  /* 2 */
+  text-indent: 0; /* 1 */
+  border-color: inherit; /* 2 */
 }
 
 /*
@@ -145,14 +133,10 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: inherit;
-  /* 1 */
-  font-size: 100%;
-  /* 1 */
-  line-height: 1.15;
-  /* 1 */
-  margin: 0;
-  /* 2 */
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
 }
 
 /**
@@ -223,10 +207,8 @@ Correct the cursor style of increment and decrement buttons in Safari.
 2. Correct the outline style in Safari.
 */
 [type=search] {
-  -webkit-appearance: textfield;
-  /* 1 */
-  outline-offset: -2px;
-  /* 2 */
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
 }
 
 /**
@@ -241,10 +223,8 @@ Remove the inner padding in Chrome and Safari on macOS.
 2. Change font properties to 'inherit' in Safari.
 */
 ::-webkit-file-upload-button {
-  -webkit-appearance: button;
-  /* 1 */
-  font: inherit;
-  /* 2 */
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
 }
 
 /*
@@ -263,50 +243,40 @@ summary {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/roboto-v30-cyrillic-regular.eot");
-  /* IE9 Compat Modes */
-  src: local(""), url("../fonts/roboto-v30-cyrillic-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-v30-cyrillic-regular.woff2") format("woff2"), url("../fonts/roboto-v30-cyrillic-regular.woff") format("woff"), url("../fonts/roboto-v30-cyrillic-regular.ttf") format("truetype"), url("../fonts/roboto-v30-cyrillic-regular.svg#Roboto") format("svg");
-  /* Legacy iOS */
+  src: url("../fonts/roboto-v30-cyrillic-regular.eot"); /* IE9 Compat Modes */
+  src: local(""), url("../fonts/roboto-v30-cyrillic-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-v30-cyrillic-regular.woff2") format("woff2"), url("../fonts/roboto-v30-cyrillic-regular.woff") format("woff"), url("../fonts/roboto-v30-cyrillic-regular.ttf") format("truetype"), url("../fonts/roboto-v30-cyrillic-regular.svg#Roboto") format("svg"); /* Legacy iOS */
 }
 /* roboto-500 - cyrillic */
 @font-face {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
-  src: url("../fonts/roboto-v30-cyrillic-500.eot");
-  /* IE9 Compat Modes */
-  src: local(""), url("../fonts/roboto-v30-cyrillic-500.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-v30-cyrillic-500.woff2") format("woff2"), url("../fonts/roboto-v30-cyrillic-500.woff") format("woff"), url("../fonts/roboto-v30-cyrillic-500.ttf") format("truetype"), url("../fonts/roboto-v30-cyrillic-500.svg#Roboto") format("svg");
-  /* Legacy iOS */
+  src: url("../fonts/roboto-v30-cyrillic-500.eot"); /* IE9 Compat Modes */
+  src: local(""), url("../fonts/roboto-v30-cyrillic-500.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-v30-cyrillic-500.woff2") format("woff2"), url("../fonts/roboto-v30-cyrillic-500.woff") format("woff"), url("../fonts/roboto-v30-cyrillic-500.ttf") format("truetype"), url("../fonts/roboto-v30-cyrillic-500.svg#Roboto") format("svg"); /* Legacy iOS */
 }
 /* roboto-700 - cyrillic */
 @font-face {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
-  src: url("../fonts/roboto-v30-cyrillic-700.eot");
-  /* IE9 Compat Modes */
-  src: local(""), url("../fonts/roboto-v30-cyrillic-700.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-v30-cyrillic-700.woff2") format("woff2"), url("../fonts/roboto-v30-cyrillic-700.woff") format("woff"), url("../fonts/roboto-v30-cyrillic-700.ttf") format("truetype"), url("../fonts/roboto-v30-cyrillic-700.svg#Roboto") format("svg");
-  /* Legacy iOS */
+  src: url("../fonts/roboto-v30-cyrillic-700.eot"); /* IE9 Compat Modes */
+  src: local(""), url("../fonts/roboto-v30-cyrillic-700.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-v30-cyrillic-700.woff2") format("woff2"), url("../fonts/roboto-v30-cyrillic-700.woff") format("woff"), url("../fonts/roboto-v30-cyrillic-700.ttf") format("truetype"), url("../fonts/roboto-v30-cyrillic-700.svg#Roboto") format("svg"); /* Legacy iOS */
 }
 /* roboto-900 - cyrillic */
 @font-face {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 900;
-  src: url("../fonts/roboto-v30-cyrillic-900.eot");
-  /* IE9 Compat Modes */
-  src: local(""), url("../fonts/roboto-v30-cyrillic-900.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-v30-cyrillic-900.woff2") format("woff2"), url("../fonts/roboto-v30-cyrillic-900.woff") format("woff"), url("../fonts/roboto-v30-cyrillic-900.ttf") format("truetype"), url("../fonts/roboto-v30-cyrillic-900.svg#Roboto") format("svg");
-  /* Legacy iOS */
+  src: url("../fonts/roboto-v30-cyrillic-900.eot"); /* IE9 Compat Modes */
+  src: local(""), url("../fonts/roboto-v30-cyrillic-900.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-v30-cyrillic-900.woff2") format("woff2"), url("../fonts/roboto-v30-cyrillic-900.woff") format("woff"), url("../fonts/roboto-v30-cyrillic-900.ttf") format("truetype"), url("../fonts/roboto-v30-cyrillic-900.svg#Roboto") format("svg"); /* Legacy iOS */
 }
 /* raleway-700 - latin */
 @font-face {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
-  src: url("../fonts/raleway-v27-latin-700.eot");
-  /* IE9 Compat Modes */
-  src: local(""), url("../fonts/raleway-v27-latin-700.eot?#iefix") format("embedded-opentype"), url("../fonts/raleway-v27-latin-700.woff2") format("woff2"), url("../fonts/raleway-v27-latin-700.woff") format("woff"), url("../fonts/raleway-v27-latin-700.ttf") format("truetype"), url("../fonts/raleway-v27-latin-700.svg#Raleway") format("svg");
-  /* Legacy iOS */
+  src: url("../fonts/raleway-v27-latin-700.eot"); /* IE9 Compat Modes */
+  src: local(""), url("../fonts/raleway-v27-latin-700.eot?#iefix") format("embedded-opentype"), url("../fonts/raleway-v27-latin-700.woff2") format("woff2"), url("../fonts/raleway-v27-latin-700.woff") format("woff"), url("../fonts/raleway-v27-latin-700.ttf") format("truetype"), url("../fonts/raleway-v27-latin-700.svg#Raleway") format("svg"); /* Legacy iOS */
 }
 :root {
   --primary-text-color: #212121;
@@ -484,6 +454,7 @@ button {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    align-items: baseline;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -634,10 +605,10 @@ button {
 
 .header {
   background-color: var(--bg-secondcolor);
+  border-bottom: 1px solid #ececec;
 }
 
 .header-container {
-  border-bottom: 1px solid #ececec;
   display: flex;
   align-items: center;
 }
@@ -1082,6 +1053,11 @@ button {
   margin-top: -30px;
   margin-left: -30px;
 }
+@media screen and (min-width: 1200px) {
+  .client-list {
+    margin-top: 0;
+  }
+}
 
 .client-list__item {
   height: 92px;
@@ -1129,6 +1105,11 @@ button {
   .feature-list {
     margin-top: -30px;
     margin-left: -30px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .feature-list {
+    margin-top: 0;
   }
 }
 
@@ -1198,7 +1179,7 @@ button {
 }
 @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .hero {
-    background-image: url(../images/hero/hero-mobile@2x.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/hero-mobile@2x.jpg);
   }
 }
 @media screen and (min-width: 768px) {
@@ -1208,7 +1189,7 @@ button {
 }
 @media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
   .hero {
-    background-image: url(../images/hero/hero-tablet@2x.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/hero-tablet@2x.jpg);
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1220,7 +1201,7 @@ button {
 }
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .hero {
-    background-image: url(../images/hero/hero-desktop@2x.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/hero-desktop@2x.jpg);
   }
 }
 
@@ -1404,12 +1385,12 @@ button {
 @media screen and (min-width: 768px) {
   .filter-list {
     justify-content: center;
-    margin-bottom: 14px;
+    margin-bottom: 30px;
   }
 }
 @media screen and (min-width: 1200px) {
   .filter-list {
-    margin-bottom: 34px;
+    margin-bottom: 50px;
   }
 }
 
@@ -1420,7 +1401,7 @@ button {
 .filter-list__item:not(:nth-last-child(-n+2)) {
   margin-bottom: 15px;
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 768px) {
   .filter-list__item:not(:nth-last-child(-n+2)) {
     margin-bottom: 0;
   }

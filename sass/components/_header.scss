@@ -1,9 +1,9 @@
 .header {
   background-color: var(--bg-secondcolor);
+  border-bottom: 1px solid #ececec;
 }
 
 .header-container {
-  border-bottom: 1px solid #ececec;
   display: flex;
   align-items: center;
 }
